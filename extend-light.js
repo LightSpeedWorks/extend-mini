@@ -1,4 +1,4 @@
-this['extend-light'] = function () {
+this['extend-mini'] = function () {
   'use strict';
 
   // merge-light

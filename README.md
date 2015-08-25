@@ -1,7 +1,7 @@
-[extend-light](https://www.npmjs.org/package/extend-light) - npm
+[extend-mini](https://www.npmjs.org/package/extend-mini) - npm
 ====
 
-[extend-light](https://www.npmjs.org/package/extend-light) defines class in JavaScript.<br/>
+[extend-mini](https://www.npmjs.org/package/extend-mini) defines class in JavaScript.<br/>
 This is simple module providing a simple Class function to
 simplify class definition in JavaScript.
 
@@ -18,25 +18,25 @@ Supports Google Chrome, Mozilla Firefox, Microsoft ie11/10/9/8/7/6 and Node.js/i
 
 # INSTALL:
 
-[![NPM](https://nodei.co/npm/extend-light.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/extend-light/)
-[![NPM](https://nodei.co/npm-dl/extend-light.png?height=2)](https://nodei.co/npm/extend-light/)
+[![NPM](https://nodei.co/npm/extend-mini.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/extend-mini/)
+[![NPM](https://nodei.co/npm-dl/extend-mini.png?height=2)](https://nodei.co/npm/extend-mini/)
 
 ```bash
-$ npm install extend-light
+$ npm install extend-mini
 ```
 
 or
 
-http://lightspeedworks.github.io/extend-light/extend-light.js
+http://lightspeedworks.github.io/extend-mini/extend-mini.js
 
 ```html
-<script src="http://lightspeedworks.github.io/extend-light/extend-light.js"></script>
+<script src="http://lightspeedworks.github.io/extend-mini/extend-mini.js"></script>
 ```
 
 # USAGE:
 
 ```js
-var extend = require('extend-light');
+var extend = require('extend-mini');
 ```
 
 ## method: [BaseClass].extend([proto], [staticProps])
@@ -73,7 +73,7 @@ var YourSubClass = YourClass.extend([proto], [staticProps]);
   A simple and quick sample:
 
 ```js
-var extend = require('extend-light');
+var extend = require('extend-mini');
 
 var MyClass = extend({
   constructor: function MyClass(value) {
@@ -96,7 +96,7 @@ myObj.value++; // 6 -> 7
 // Animal
 
 // extend
-var extend = require('extend-light');
+var extend = require('extend-mini');
 
 // SimpleClass
 var SimpleClass = extend('SimpleClass');

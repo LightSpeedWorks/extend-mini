@@ -1,8 +1,8 @@
 {
-  "name": "extend-light",
+  "name": "extend-mini",
   "version": "0.0.0",
-  "description": "extend light",
-  "main": "extend-light.js",
+  "description": "extend mini",
+  "main": "extend-mini.js",
   "devDependencies": {
     "merge-light": ">=0.0.1"
   },
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "LightSpeedWorks/extend-light"
+    "url": "LightSpeedWorks/extend-mini"
   },
   "keywords": [
     "extend",

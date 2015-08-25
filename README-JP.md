@@ -1,9 +1,9 @@
-[extend-light](https://www.npmjs.org/package/extend-light) - npm
+[extend-mini](https://www.npmjs.org/package/extend-mini) - npm
 ====
 
 [English version](README.md#readme)
 
-[extend-light](https://www.npmjs.org/package/extend-light)はJavaScriptのクラスを定義します。<br/>
+[extend-mini](https://www.npmjs.org/package/extend-mini)はJavaScriptのクラスを定義します。<br/>
 これはJavaScriptのクラスを単純に定義する機能を提供するシンプルなモジュールです。
 
 簡単に使えて、簡単に継承できます。<br/>
@@ -17,25 +17,25 @@ Google Chrome, Mozilla Firefox, Microsoft ie11/10/9/8/7/6 と Node.js/io.js を�
 
 # インストール:
 
-[![NPM](https://nodei.co/npm/extend-light.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/extend-light/)
-[![NPM](https://nodei.co/npm-dl/extend-light.png?height=2)](https://nodei.co/npm/extend-light/)
+[![NPM](https://nodei.co/npm/extend-mini.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/extend-mini/)
+[![NPM](https://nodei.co/npm-dl/extend-mini.png?height=2)](https://nodei.co/npm/extend-mini/)
 
 ```bash
-$ npm install extend-light
+$ npm install extend-mini
 ```
 
 または
 
-http://lightspeedworks.github.io/extend-light/extend-light.js
+http://lightspeedworks.github.io/extend-mini/extend-mini.js
 
 ```html
-<script src="http://lightspeedworks.github.io/extend-light/extend-light.js"></script>
+<script src="http://lightspeedworks.github.io/extend-mini/extend-mini.js"></script>
 ```
 
 # 使い方:
 
 ```js
-var extend = require('extend-light');
+var extend = require('extend-mini');
 ```
 
 ## メソッド: [BaseClass].extend([proto], [staticProps])
@@ -72,7 +72,7 @@ var YourSubClass = YourClass.extend([proto], [staticProps]);
   簡単なサンプル:
 
 ```js
-var extend = require('extend-light');
+var extend = require('extend-mini');
 
 var MyClass = extend({
   constructor: function MyClass(value) {
@@ -95,7 +95,7 @@ myObj.value++; // 6 -> 7
 // Animal
 
 // extend
-var extend = require('extend-light');
+var extend = require('extend-mini');
 
 // SimpleClass
 var SimpleClass = extend('SimpleClass');

@@ -10,10 +10,6 @@ this['extend-mini'] = function () {
     return dst;
   }
 
-  var setProto = Object.setPrototypeOf ||
-      ({}.__proto__ = {proto:1}).proto &&
-      function setProto(obj, proto) { obj.__proto__ = proto; } || null;
-
   function extend(proto, statics) {
     'use strict';
     proto = proto || {};
@@ -31,7 +27,6 @@ this['extend-mini'] = function () {
     $ctor.prototype = ctor.prototype = merge(new $super(), proto);
     delete ctor.prototype.statics;
 
-    if (super_ && setProto) setProto(ctor, super_);
     return merge(ctor, proto.statics, statics,
       super_ ? {super_: super_} : undefined, super_, {extend: extend, create: create});
   }

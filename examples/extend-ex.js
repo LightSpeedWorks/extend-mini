@@ -1,5 +1,5 @@
   module.paths.unshift('..');
-  var extend = require('extend-light');
+  var extend = require('extend-mini');
 
   var util = require('util');
   console.log();

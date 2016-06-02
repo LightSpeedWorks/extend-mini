@@ -1,4 +1,4 @@
-this['extend-mini'] = function () {
+void function () {
   'use strict';
 
   // extend
@@ -42,5 +42,5 @@ this['extend-mini'] = function () {
   if (typeof module === 'object' && module && module.exports)
     module.exports = extend;
 
-  return extend;
+  Function('return this')()['extend-mini'] = extend;
 }();
